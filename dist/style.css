@@ -1,0 +1,489 @@
+body{
+    background-color: #f5f5f7;
+    margin: 0;
+    padding: 0;
+    padding-top: 44px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* Helping Class */
+.small{
+  padding: 10px;
+    font-size: 18px;
+    color: rgb(138, 11, 11);
+ }
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.dark-theme{
+    background-color: black;
+    color: #f5f5f7;
+}
+
+.white-theme{
+    
+    background-color:white;
+    color: black;
+
+}
+
+.light-theme{
+    background-color:rgb(251,251,253);
+    color: black;
+}
+
+.nav-section{
+    background-color: rgba(0,0,0,0.8);
+    height: 44px;;
+    font-size: 11px;
+    width: 100%;
+    justify-content:space-between;
+    position: fixed;
+    top: 0;
+   
+   
+}
+.main-svg{
+    width: 20px;
+    color: #E8E8ED;
+}
+
+
+.watch-svg{
+    width: 50px;
+    color: #E8E8ED;
+    display: inline;
+}
+
+.top-margin{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+.nav-section ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;    
+    text-align: center;
+}
+
+
+.nav-section ul li {
+   list-style-type: none;
+   
+}
+
+.nav-section ul li a{
+    text-decoration: none;
+    color:#E8E8ED;
+}
+
+.second-nav-text{
+    font-size: 14px;
+    
+}
+
+.auto-margin{
+    margin: auto;
+    padding: auto;  
+}
+
+.second-nav{
+    text-align: center;
+    padding: 12px;
+   
+}
+
+.content{
+    padding-top: 47px;
+}
+
+.link{
+    font-size: 17px;
+}
+
+.dark-blue{
+    color:#06c
+}
+
+.light-blue{
+    color:#2997ff;
+    font-size: 19px;
+}
+
+.center{
+    text-align: center;
+}
+
+.sub-svg{
+    width:15px;
+}
+
+a{
+    text-decoration: none;
+}
+.heading{
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.002em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.subheading{
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 400;
+    letter-spacing: .009em;
+    margin-top: 0;
+    
+}
+
+
+.two-column .heading{
+    font-size: 32px;
+}
+
+
+.two-column .subheading{
+    font-size: 19px;
+}
+
+.two-column .light-blue{
+    font-size: 17px;
+}
+
+.WWDC23{    
+background-image: url("https://www.apple.com/v/home/az/images/promos/wwdc23-announce/promo_wwdc23__b68ptht3mro2_small.jpg");
+    
+}
+
+.last-ul{
+  margin-top:0;
+  padding-top:0;
+  
+}
+
+.last-flex{
+  margin:0;
+  padding:0;
+  justify-content: center;
+}
+
+footer{
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    color: #6e6e73;
+    background-color: #f5f5f7;
+}
+footer ul{
+    margin-bottom: 20px;
+}
+
+footer li{
+    
+    list-style-type: none;
+    margin: 7px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #6e6e73;
+}
+
+
+footer ul li h3{
+    color: rgb(13, 12, 12);
+}
+
+
+.left{
+    position: relative;
+    left: 48px;
+
+}
+
+
+footer h3{
+    font-size:9px;
+    margin-bottom: 0;
+}
+
+.five-column{
+    justify-content: space-between;
+}
+
+.image-wrap{
+    z-index: 1;
+    overflow: visible;
+}
+
+  
+@media screen and (max-width:899px){
+    
+
+    .image-wrap .iPhone-14-pro{
+        padding: 30% ;
+        background-size: 120%;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        background-image: url("https://www.apple.com/v/home/az/images/heroes/iphone-14-pro/hero_iphone14pro_spring__9xo85pm6sbmm_small.jpg");
+    }
+
+    
+.unit-div{
+    height: 500px;
+    margin-top: 0;
+    width: 100%;
+}
+}
+
+@media screen and (max-width:700px){
+    
+
+.two-column-flex{
+      
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+
+}
+
+@media screen and (min-width:900px){
+
+    .image-wrap .iPhone-14-pro{
+        height:500px;
+        width:100%;
+        background-size: 70%;
+        background-position: top 0  center;
+        background-repeat: no-repeat;
+        background-image: url("https://www.apple.com/lae/iphone-14-pro/images/key-features/hero/hero__cj6i78tzkp8i_large.jpg");
+    }
+    
+
+
+    
+
+    
+}
+
+.two-column-flex{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: auto;
+}
+
+.col{
+    margin-top:5px ;
+    width: 48%;
+    min-width: 400px;
+    margin:10px auto;
+}
+
+.blue-bg{
+    background-color:#889dad;
+    color: #E8E8ED;
+}
+
+.image-wrap .iPhone-14{
+    height:500px;
+    width:100%;
+    background-position: top 0 center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/am/iphone-14/images/meta/iphone-14_overview__ewkgx3s30v8m_og.png");
+    
+}
+
+.image-wrap .watch{
+    height:435px;
+    width:100%;
+    background-position: top 0 center;
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/v/apple-watch-series-8/c/images/meta/gps-lte__gi7uzrvkt5e2_og.png");
+    
+}
+
+
+.WWDC23{
+    padding: 20%;
+    background-position: top center;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/v/home/az/images/promos/wwdc23-announce/promo_wwdc23__b68ptht3mro2_large.jpg");
+}
+
+.ipad{
+    padding-top: 10%;
+    padding-bottom: 40%;
+    background-position:50% ;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/v/home/az/images/promos/ipad/promo_ipad__fioegapg12qi_large.jpg");
+}
+
+.mackbook-pro{
+    padding-top: 10%;
+    padding-bottom: 40%;
+    background-position:50%;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/v/home/az/images/promos/macbook-pro-14-and-16/promo_mbp__ek7p477bkp6q_large.jpg");
+}
+
+.card{
+    padding-top: 10%;
+    padding-bottom: 40%;
+    background-position:50% ;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/v/home/az/images/promos/apple-card/tile__cauwwcyyn9hy_large.jpg");
+}
+
+.homepod{
+    padding-top: 10%;
+    padding-bottom: 40%;
+    background-position:50% ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/newsroom/images/product/homepod/standard/Apple-HomePod-hero-230118_big.jpg.large.jpg");
+}
+
+.airpod-pro{
+    padding-top: 10%;
+    padding-bottom: 40%;
+    background-position:50% ;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-image: url("data:image/jpeg;base64,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");
+}
+
+
+.slider-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.slider{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.images{
+    position: relative;
+    left: 0;
+    width: 400%;
+    animation: 10s slide infinite;
+}
+
+.slide{
+   
+    width: 25%;
+    position: relative;
+    float: left;
+}
+
+.slider-btn{
+    background-color: #fff;
+    color: #1d1d1f;
+    font-size: 14px;
+    border-radius: 980px;
+    font-weight: 700;
+    white-space: nowrap;
+    border: 1px solid #fff;
+
+    min-width: 26px;
+    padding-left: 22px;
+    padding-right: 22px;
+    letter-spacing: -.016em;
+}
+
+.slide p{
+    color: #f5f5f7;
+    font-size: 18px;
+    margin: 0 auto 8px;
+    padding: 0 7px;
+    white-space: pre-wrap;
+    overflow: visible;
+}
+
+.slider-content{
+    margin-top: px;
+   margin-bottom: 0;
+   bottom: 0;
+    display: flex;
+    width: 100%;
+    margin-top: 170px;
+}
+
+
+.slider-1{
+    padding: 20%;
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/tv-pr/articles/2023/04/apple-tv-celebrates-the-life-and-legacy-of-dr-jane-goodall-with-trailer-reveal-for-original-series-jane-ahead-of-global-premiere-on-friday-april-14/images/big-image/Apple_TV_Jane_key_art_16x9_big_image_post.jpg.large.jpg");
+}
+
+
+
+.slider-2{
+    padding: 20%;
+    background-size:100%;
+    background-position: top 0 center;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/tv-pr/shows-and-films/t/the-big-door-prize/images/season-01/thumbnail/key-art-02/Apple_TV_Big_Door_Prize_key_art_main_16_9.jpg");
+}
+
+.slider-3{
+    padding: 20%;
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-image: url("https://www.iphonote.com/wp-content/uploads/2023/01/Shrinking-apple-tv-23.jpg");
+}
+
+.slider-4{
+    padding: 20%;
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/newsroom/images/product/apple-tv-plus/standard/Apple-Today-at-Apple-session-Ted-Lasso-hero_big.jpg.large.jpg");
+}
+
+@keyframes slide{
+    0%{ left:0;}
+
+    10%{ left:0;}
+
+    20%{ left:-100%;}
+
+    30%{ left:-100%;}
+
+    40%{ left:-200%;}
+
+    50%{ left:-300%;}
+
+    65%{ left:-300%;}
+
+    75%{ left:-200%;}
+    
+    85%{ left:-100%;}
+
+    90%{ left:0;}
+
+    100%{ left:0;}
+}
